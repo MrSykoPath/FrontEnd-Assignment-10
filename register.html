@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Assignment 10</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" href="../bootstrap-5.3.3-dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="../node_modules/@fortawesome/fontawesome-free/css/all.min.css">
+    </head>
+    <body>
+        <div class="main w-100">
+            <div class="container-sm p-5 m-auto">
+                <div class="w-100 d-flex flex-column shadow-lg">
+                    <div class="sign text-center pt-3">
+                        <h1>Smart Login System</h1>
+                    </div>
+                    <div class="forms">
+                        <form class="d-flex flex-column align-items-center p-3">
+                            <input type="text" class="form-control bg-transparent" id="name" placeholder="Enter your name" name="name">
+                            <input type="email" class="form-control bg-transparent mt-3" id="email" placeholder="Enter your email" name="email">
+                            <input type="password" class="form-control bg-transparent mt-3" id="password" placeholder="Enter your password" name="password">
+                            <button type="submit" class="btn mt-5" onclick="Register(event)">Register</button>
+                        </form>
+                    </div>
+                    <div class="Error">
+                        <p class="text-center text-danger" id="error"></p>
+                    </div>
+                    <div class="register">
+                        <p class="text-center">You have an account? <a href="index.html">Login</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="script.js"></script>
+        <script src="../bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
+        <script src="../node_modules/@fortawesome/fontawesome-free/js/all.min.js"></script>
+    </body>
+</html>

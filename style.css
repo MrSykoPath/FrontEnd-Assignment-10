@@ -1,0 +1,38 @@
+.main {
+    background-color: #24353F;
+    min-height: 100vh;
+}
+
+.main .sign h1{
+    color: #17A2B8;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main .forms form input::placeholder{
+    color: grey;
+}
+
+.main .forms form button[type="submit"]{
+    background-color: transparent;
+    color: #17A2B8;
+    border: 1px solid #17A2B8;
+    width: 100%;
+}
+
+.main .register p{
+    color: white;
+}
+
+.main .register p a{
+    color: white;
+    text-decoration-line: none;
+}
+
+.main .register p a:hover{
+    text-decoration-line: underline;
+}
+
+#user{
+    color: #17A2B8;
+    font-family: Arial, Helvetica, sans-serif;
+}
